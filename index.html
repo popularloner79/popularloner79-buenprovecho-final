@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="keywords" content="Homepage"/>
+   <meta name="description" content="Homepage Mockup"/>
+   <meta charset="UTF-8"/>
+   <title>Buen Provecho</title>
+   <link rel="stylesheet" type="text/css" href="css/homepage.css"/>
+</head>
+<body>
+ <h1>¡Bienvenidos a Buen Provecho!</h1>
+ <blockquote style="transform: translate(25px,0px)">
+   <a href="homepage.html"><img height="50" width="100" src="images/tinylogo.png" alt="tinyLogo" class="float-left noborder" style="transform: translate(0px,0px)"  /></a>
+   <a href="menu.html">Menu</a>
+   <a href="ourstory.html">Our Story</a>
+   <a href="reservations.html">Reservations</a>
+ </blockquote>
+<div class="container">
+  <img height="400" width="800" src="images/table.jpg" alt="table"   >
+  <div class="middle">
+<div class="text"><a href="Reservations.html"><h2>Reservations</h2></a></div>
+   </div>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img height="600" width="800" src="images/logo.jpg" alt="logo" style="transform: translate(25px,125px)"/>
+</div>
+
+<div class="mySlides fade">
+<img height="600" width="800" src="images/dominiplate.jpg" alt="logo" style="transform: translate(25px,125px)"/>
+</div>
+
+<div class="mySlides fade">
+ <img height="600" width="800" src="images/prplate.jpg" alt="logo" style="transform: translate(25px,125px)"/>
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+ <a href="https://www.google.com/maps/place/Richmond,+VA/@37.5458101,-77.4548896,13.5z/data=!4m6!3m5!1s0x89b111095799c9ed:0xbfd83e6de2423cc5!8m2!3d37.5407246!4d-77.4360481!16zL20vMGR6dDk?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D"> <img height=230 width=800 src="images/map.jpg" alt="map" style="transform: translate(1035px,-50px)"> </a>
+
+<div class="just">
+ <p> 123 East Main Street<p> 
+ <p>Richmond, Va, 23222</p>
+ <p> 888-888-8888 </p>
+ <a href="https://www.instagram.com"><img height="35" width="50" src="images/instagram.jpg" alt="tinyLogo" class=" noborder" style="transform: translate(1300px,-125px)"/></a>
+ <a href="https://www.youtube.com"><img height="35" width="50" src="images/youtube.jpg" alt="tinyLogo" class=" noborder" style="transform: translate(1400px,-125px)"/></a>
+</div>
+<div class="rectangle" >
+</div>
+<div class="rectwo" >
+</div>
+</body>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+body {		
+    font-family: arial, verdana, helvetica, sans-serif;
+    color: black; 
+    font-size: 20px;
+    background-color: #cd4e9d;
+}
+
+h1 {text-align: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {text-align: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+    font-family: arial, verdana, helvetica,sans-serif;    
+    color: #ff8b0f;
+    font-size: 50px;
+} 
+
+h2 {
+			
+    font-family: Georgia, serif;
+font-style: italic;
+    color: #ff8b0f;
+    font-size: 35px;
+} 
+
+p{
+
+ font-family: arial, verdana, helvetica,sans-serif;    
+    color: #dddddd;
+    font-size: 30px;
+    margin-left: 200px; 
+} 
+
+
+blockquote {
+  background-color: #dddddd;
+  box-sizing: border-box;
+  width: auto;
+  border-bottom: 15px solid #ff8b0f;
+ margin-left: auto;
+  font-size: 30px;
+}
+blockquote {text-align: right;}
+
+.blockquote {
+  display: block;
+  margin-left: auto;
+
+}
+
+.float-left {
+  width: auto;
+  float: left;
+}
+
+
+
+.noborder {
+ border:0px;
+}
+
+
+.just{
+ border: 10px solid #ff8b0f;
+  text-align: justify;
+}
+
+.top-left {
+  position: absolute;
+  bottom: -80px;
+  right: 1675px;
+}
+
+.cover {
+  object-fit: cover;
+  width: 1850px;
+  height: 200px; 
+}
+
+img {
+  border: 20px solid #ff8b0f;
+ 
+
+}
+
+
+
+input[type="text"], textarea {
+
+  background-color :#dddddd; 
+
+}
+
+.rectangle {
+ position: absolute;
+      right:940px;
+ bottom: -150px;
+  height: 890px;
+  width: 12px;
+  background-color: #dddddd;
+}
+
+
+.rectwo {
+ position: absolute;
+      right:-915px;
+ bottom: 350px;
+  height: 12px;
+  width: 835px;
+  background-color: #dddddd;
+}
+
+.container {
+  position: absolute; right: 20px;
+  width: auto;
+ height: auto;
+ outline: 30px solid #cd4e9d;
+ outline-offset: -50px;
+}
+
+.nooutline{
+outline: 0px;
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: auto;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
